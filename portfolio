@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theva's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Theva's Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a motivated Diploma in Information Technology student seeking an internship opportunity to apply my skills in IT support, programming, and web development. Eager to gain practical experience in a dynamic work environment and contribute to meaningful projects while enhancing my technical abilities.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Online Portfolio Website: Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript.</li>
+            <li>Library Management System: Created a system using Python and SQLite to manage book inventory and user records.</li>
+            <li>E-Commerce Demo: Developed a mock e-commerce site with basic product listings and a shopping cart feature using PHP and MySQL.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:theva29@gmail.com">theva29@gmail.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Theva. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background: #444;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
